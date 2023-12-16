@@ -77,10 +77,6 @@ body {
     flex-wrap: wrap;
 
     gap: 70px 20px;
-
-     /* TEST */
-
-    border: 1px solid red;
 }
 
 .vestiti {
@@ -91,9 +87,6 @@ body {
 .card {
     width: calc(100% / 3 - 20px / 3 * 2);
     height: 420px;
-
-    /* TEST */
-    border: 1px solid red;
 }
 
 .relative {
