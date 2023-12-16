@@ -64,26 +64,33 @@ body {
 
 .vestiti {
     width: 100%;
-    height: 1570px;
 
     margin-left: auto;
     margin-right: auto;
 
     padding-top: calc(70px + 60px);
+    padding-bottom: 70px;
 
     background-color: white;
 
     display: flex;
     flex-wrap: wrap;
 
+    gap: 70px 20px;
+
      /* TEST */
 
     border: 1px solid red;
 }
 
+.vestiti {
+    padding-left: 270px;
+    padding-right: 270px;
+}
+
 .card {
-    width: calc(100% / 3);
-    height: 700px;
+    width: calc(100% / 3 - 20px / 3 * 2);
+    height: 420px;
 
     /* TEST */
     border: 1px solid red;
@@ -98,7 +105,7 @@ body {
 
 .near {
     position: absolute;
-    bottom: 30px;
+    top: 340px;
 
     gap: 5px;
 
