@@ -147,22 +147,27 @@ body {
     width: 100%;
 }
 
-.uno:hover {
-    display: none;
-}
-
-.due {
-    display: none;
-
+.transizione {
     position: absolute;
     top: 0;
     left: 0;
+    z-index: 0;
+}
+
+.inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
 }
 
 .due:hover {
-    display: block;
+    display: none;
 }
-   
+
+.marchio {
+    margin-top: 10px;
+}
 
 .prezzo {
     color: red;
