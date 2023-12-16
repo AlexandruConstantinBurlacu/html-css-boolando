@@ -186,3 +186,17 @@ body {
 
     background-color: #1A1A1A;
 }
+
+.white {
+    color: white;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.sinistra {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+}
